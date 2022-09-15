@@ -1,0 +1,498 @@
+ .header {
+     margin-top: 50px;
+ }
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Arial, sans-serif;
+ }
+
+ .container {
+     width: 1140px;
+     padding-left: 15px;
+     padding-right: 15px;
+     margin: 0 auto;
+ }
+
+ .rw-head {
+
+     align-items: center;
+ }
+
+ .col-6 {
+     width: 50%;
+     padding-left: 15px;
+     padding-right: 15px;
+ }
+
+ .left-image {
+     padding-left: 0;
+ }
+
+ .left-image img {
+     width: 100%;
+     display: block;
+ }
+
+ .right-text {
+     background-color: #f5f5f5;
+     padding-right: 30px;
+     padding-top: 30px;
+     padding-bottom: 30px;
+     padding-left: 30px;
+ }
+
+ .right-text h2 {
+     margin-bottom: 20px;
+ }
+
+ .right-text a {
+     display: inline-block;
+     padding: 8px 20px;
+     color: #fff;
+     background-color: blue;
+     text-decoration: none;
+     text-transform: uppercase;
+     border-radius: 5px;
+     font-size: 12px;
+     margin-top: 20px;
+ }
+
+
+
+ /* form */
+ .contact-head {
+     text-align: center;
+     margin-top: 60px;
+     margin-bottom: 60px;
+ }
+
+ .contact-head h2 {
+     font-size: 13px;
+     letter-spacing: 1px;
+     font-weight: 700;
+     margin: 0;
+     color: #4154f1;
+     text-transform: uppercase;
+     font-family: "Nunito", sans-serif;
+ }
+
+ .contact-head p {
+     margin: 10px 0 0 0;
+     padding: 0;
+     font-size: 38px;
+     line-height: 42px;
+     font-weight: 700;
+     color: #012970;
+ }
+
+ .form-right {
+     background: #fafbff;
+     padding: 30px;
+     height: 100%;
+ }
+
+ .info-box {
+     color: #444444;
+     background: #fafbff;
+     padding: 30px;
+ }
+
+ .info-box i {
+     font-size: 38px;
+     line-height: 0;
+     color: #4154f1;
+ }
+
+ .info-box h3 {
+     font-size: 20px;
+     color: #012970;
+     font-weight: 700;
+     margin: 20px 0 10px 0;
+
+ }
+
+ .info-box p {
+     /* padding: 0; */
+     line-height: 24px;
+     font-size: 14px;
+     /* margin-bottom: 0; */
+ }
+
+ .text-center button {
+     background: #4154f1;
+     border: 0;
+     padding: 10px 30px;
+     color: #fff;
+     transition: 0.4s;
+     border-radius: 5px;
+ }
+
+ /* PRICING */
+
+ .pricing {
+     padding: 60px 0;
+ }
+
+ .pricing-head {
+     margin-top: 50px;
+     text-align: center;
+     padding-bottom: 30px;
+ }
+
+ .pricing-head h2 {
+     font-size: 13px;
+     letter-spacing: 1px;
+     font-weight: 700;
+     padding: 8px 20px;
+     margin: 0;
+     background: #e7f1fd;
+     color: #106eea;
+     display: inline-block;
+     text-transform: uppercase;
+     border-radius: 50px;
+ }
+
+ .pricing-head h3 {
+     margin: 15px 0 0 0;
+     font-size: 32px;
+     font-weight: 700;
+ }
+
+ .pricing-head span {
+     color: #106eea;
+ }
+
+ .pricing-head p {
+     margin: 15px auto 0 auto;
+     font-weight: 600;
+     line-height: 1.2;
+     color: #444444;
+
+ }
+
+ .pri-box {
+     padding: 20px;
+     background: #fff;
+     text-align: center;
+     box-shadow: 0px 0px 4px rgb(0 0 0 / 12%);
+     border-radius: 5px;
+     position: relative;
+     overflow: hidden;
+ }
+
+ .pricing .featured h3 {
+     color: #fff;
+     background-color: #106eea;
+ }
+
+
+ .pri-box h3 {
+     margin: -20px -20px 20px -20px;
+     padding: 20px 15px;
+     font-size: 16px;
+     font-weight: 600;
+     color: #777777;
+     background: #f8f8f8;
+ }
+
+ .pri-box h4 {
+     font-size: 36px;
+     color: #106eea;
+     font-weight: 600;
+     font-family: "Poppins", sans-serif;
+     margin-bottom: 20px;
+
+ }
+
+ .pri-box .advanced {
+     width: 200px;
+     position: absolute;
+     top: 18px;
+     right: -68px;
+     transform: rotate(45deg);
+     z-index: 1;
+     font-size: 14px;
+     padding: 1px 0 3px 0;
+     background: #106eea;
+     color: #fff;
+ }
+
+ .pri-box h4 sub {
+     font-size: 20px;
+     top: -18px;
+     left: 7px;
+
+ }
+
+ .pri-box h4 span {
+     color: #bababa;
+     font-size: 16px;
+     font-weight: 300;
+
+ }
+
+ .pri-box ul {
+     padding: 0;
+     list-style: none;
+     color: #444444;
+     text-align: center;
+     line-height: 20px;
+     font-size: 14px;
+ }
+
+ .pri-box ul li {
+     padding-bottom: 16px;
+ }
+
+ .pri-btn {
+     margin: 20px -20px -20px -20px;
+     padding: 20px 15px;
+     background: #f8f8f8;
+     text-align: center;
+
+ }
+
+ .pri-btn a {
+     background: #106eea;
+     display: inline-block;
+     padding: 8px 35px 10px 35px;
+     border-radius: 4px;
+     color: #fff;
+     transition: none;
+     font-size: 14px;
+     font-weight: 400;
+     font-family: "Roboto", sans-serif;
+     font-weight: 600;
+     text-decoration: none;
+ }
+
+ .non {
+     color: #ccc;
+     text-decoration: line-through;
+ }
+
+ /* TASK-3 */
+
+ .Stories {
+     margin-top: 70px;
+ }
+
+ .card-image {
+     padding-top: 30px;
+     text-align: center;
+     align-items: center;
+ }
+
+ .card-text:last-child {
+     line-height: 26px;
+ }
+
+ .card-title {
+     font-weight: 700;
+     font-size: 28px;
+ }
+
+ .card-footer {
+     background: #fff;
+     padding: 20px;
+
+ }
+
+ .text-muted {
+     color: #6c757d !important;
+     font-size: 12px;
+ }
+
+ .box-lotext {
+     padding: 20px;
+ }
+
+ .card-image img {
+     width: 50%;
+
+ }
+
+ .box-icon {
+     font-size: 25px;
+ }
+
+ .card-footer:last-child {
+     width: 100%;
+     border-radius: 0 0 calc(2.25rem - 1px) calc(6.25rem - 1px);
+
+ }
+
+ .card-body {
+     text-align: center;
+ }
+
+ .box-lotext span {
+     background: silver;
+     padding: 0px 5px;
+     border-radius: 4px;
+ }
+
+ .card-group {
+     background: #fff;
+     border-radius: 10px;
+     height: 100%;
+     box-shadow: rgb(149 157 165 / 20%) 0px 8px 14px;
+ }
+
+ .box {
+     border: 1px solid crimson;
+     height: 200px;
+
+ }
+
+ /* task-5 */
+
+ .pricing-head-1 {
+    text-align: center;
+    padding-bottom: 75px;
+ }
+ .flex-box{
+    display: flex;
+    
+ }
+
+ .pricing-head-1 h2 {
+     font-size: 32px;
+     font-weight: 600;
+     text-transform: uppercase;
+     margin-bottom: 20px;
+     padding-bottom: 20px;
+     position: relative;
+     font-family: "Poppins", sans-serif;
+     color: #213b52;
+ }
+ /* .pricing-head-1 h2::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+ } */
+ .pricing-head-1 h2::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #fdc134;
+    bottom: 0;
+    left: calc(50% - 20px);
+ }
+
+
+
+ .pri-box-1 {
+     padding: 40px;
+   
+     box-shadow: 0px 0px 30px rgb(73 78 92 / 15%);
+     background: #fff;
+     text-align: center;
+     position: relative;
+ }
+ .pri-box-2 {
+     padding: 40px;
+    
+     box-shadow: 0px 0px 30px rgb(73 78 92 / 15%);
+     background: #fff;
+     text-align: center;
+     position: relative;
+ }
+ .pri-box-1 h3{
+    font-weight: 300;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+ .pri-box-1 h4{
+    font-size: 46px;
+    color: #fdc134;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 25px;
+ }
+.pri-box-1 h4 span{
+    color: #bababa;
+    font-size: 18px;
+    display: block;
+}
+.pri-box-1 ul{
+    padding: 0;
+    list-style: none;
+    color: #999;
+    text-align: left;
+    line-height: 20px;
+}
+.pri-box-1 ul .icofont-check-alt{
+    color: #fdc134;
+    font-size: 18px;
+    padding-right: 4px;
+}
+.pri-box-1 ul li {
+    padding-bottom: 12px;
+}
+.nan span{
+    text-decoration: line-through;
+}
+.pri-btn-1 {
+    margin-top: 10px;
+}
+.pri-btn-1{
+    background: #213b52;
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+}
+.pri-btn-1 a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.pri-btn-2 {
+    margin-top: 10px;
+}
+.pri-btn-2{
+    background: #fdc134;
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+
+}
+.pri-btn-2 a{
+    color: #fff;
+    text-decoration: none;
+}
+.Featured-box{
+    display: inline-block;
+    position: absolute;
+    top: -11px;
+    left: 134px;
+    background: #fdc134;
+    color: #fff;
+    line-height: 1;
+    border-radius: 50px;
+    padding: 4px 20px 5px 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+
+} 
+.feat-box{
+     border: 1px solid #fdc134;
+}
