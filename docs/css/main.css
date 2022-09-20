@@ -496,3 +496,44 @@
 .feat-box{
      border: 1px solid #fdc134;
 }
+
+/* task *//
+
+
+.about-tab{
+    margin-top: 40px;
+}
+.about-tab ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    border-bottom: 2px solid #4353ff;
+    margin-bottom: 40px;
+    align-items: center;
+}
+.about-tab ul li{
+    margin-right: 5px;
+}
+.about-tab ul li .nav-link{
+    background: #4353ff;
+    color: #fff;
+}
+.about-tab ul li a{
+    border: none;
+    padding: 10px 25px;
+    border-radius: 4px 4px 0 0;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
